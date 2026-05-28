@@ -4,6 +4,7 @@ export default function QueryHiveChecklist() {
   const schedule = [
     {
       day: "Day 1",
+      date: "Thursday, May 28th",
       title: "Foundation Setup",
       tasks: [
         "Finalize tech stack",
@@ -18,6 +19,7 @@ export default function QueryHiveChecklist() {
     },
     {
       day: "Day 2",
+      date: "Friday, May 29th",
       title: "Authentication + UI Base",
       tasks: [
         "Login page",
@@ -30,6 +32,7 @@ export default function QueryHiveChecklist() {
     },
     {
       day: "Day 3",
+      date: "Saturday, May 30th",
       title: "File Upload System",
       tasks: [
         "Upload PDFs/docs",
@@ -41,6 +44,7 @@ export default function QueryHiveChecklist() {
     },
     {
       day: "Day 4",
+      date: "Sunday, May 31st",
       title: "AI Knowledge Pipeline",
       tasks: [
         "Parse uploaded documents",
@@ -52,6 +56,7 @@ export default function QueryHiveChecklist() {
     },
     {
       day: "Day 5",
+      date: "Monday, June 1st",
       title: "AI Chatbot",
       tasks: [
         "Chat UI",
@@ -61,7 +66,29 @@ export default function QueryHiveChecklist() {
       ],
     },
     {
+      day: "BREAK",
+      date: "Tuesday, June 2nd",
+      title: "Prototype (tmrw) — Idea Lab",
+      tasks: ["Focus on lab exam prep and submissions"],
+      break: true,
+    },
+    {
+      day: "BREAK",
+      date: "Wednesday, June 3rd",
+      title: "Lab Exam (tmrw) — C",
+      tasks: ["Focus on lab exam prep and submissions"],
+      break: true,
+    },
+    {
+      day: "BREAK",
+      date: "Thursday, June 4th",
+      title: "Lab Exam (tmrw) — Physics",
+      tasks: ["Focus on lab exam prep and submissions"],
+      break: true,
+    },
+    {
       day: "Day 6",
+      date: "Friday, June 5th",
       title: "Conversation System",
       tasks: [
         "Save chat history",
@@ -72,6 +99,7 @@ export default function QueryHiveChecklist() {
     },
     {
       day: "Day 7",
+      date: "Saturday, June 6th",
       title: "UI Polish Day",
       tasks: [
         "Improve colors/fonts",
@@ -82,25 +110,8 @@ export default function QueryHiveChecklist() {
       ],
     },
     {
-      day: "BREAK",
-      title: "Lab Exam Day — Tuesday",
-      tasks: ["Focus on lab exam prep and submissions"],
-      break: true,
-    },
-    {
-      day: "BREAK",
-      title: "Lab Exam Day — Wednesday",
-      tasks: ["Focus on lab exam prep and submissions"],
-      break: true,
-    },
-    {
-      day: "BREAK",
-      title: "Lab Exam Day — Thursday",
-      tasks: ["Focus on lab exam prep and submissions"],
-      break: true,
-    },
-    {
       day: "Day 8",
+      date: "Sunday, June 7th",
       title: "Multi-Business Support",
       tasks: [
         "Separate business workspaces",
@@ -110,7 +121,50 @@ export default function QueryHiveChecklist() {
       ],
     },
     {
+      day: "BREAK",
+      date: "Monday, June 8th",
+      title: "Internal Preparation",
+      tasks: ["Focus on exam prep"],
+      break: true,
+    },
+    {
+      day: "BREAK",
+      date: "Tuesday, June 9th",
+      title: "Internal Preparation",
+      tasks: ["Focus on exam prep"],
+      break: true,
+    },
+    {
+      day: "BREAK",
+      date: "Wednesday, June 10th",
+      title: "Internal Preparation",
+      tasks: ["Focus on exam prep"],
+      break: true,
+    },
+    {
+      day: "EXAM",
+      date: "Thursday, June 11th",
+      title: "Internal Exam Day 1",
+      tasks: ["Do well in the exam!"],
+      break: true,
+    },
+        {
+      day: "EXAM",
+      date: "Friday, June 12th",
+      title: "Internal Exam Day 2",
+      tasks: ["Do well in the exam!"],
+      break: true,
+    },
+        {
+      day: "EXAM",
+      date: "Saturday, June 13th",
+      title: "Internal Exam Day 3",
+      tasks: ["Do well in the exam!"],
+      break: true,
+    },
+    {
       day: "Day 9",
+      date: "Sunday, June 14th",
       title: "Admin Dashboard",
       tasks: [
         "Analytics cards",
@@ -121,6 +175,7 @@ export default function QueryHiveChecklist() {
     },
     {
       day: "Day 10",
+      date: "Monday, June 15th",
       title: "AI Improvements",
       tasks: [
         "Better prompts",
@@ -131,6 +186,7 @@ export default function QueryHiveChecklist() {
     },
     {
       day: "Day 11",
+      date: "Tuesday, June 16th",
       title: "Deployment",
       tasks: [
         "Deploy frontend",
@@ -141,6 +197,7 @@ export default function QueryHiveChecklist() {
     },
     {
       day: "Day 12",
+      date: "Wednesday, June 17th",
       title: "Landing Page + Branding",
       tasks: [
         "Product tagline",
@@ -151,6 +208,7 @@ export default function QueryHiveChecklist() {
     },
     {
       day: "Day 13",
+      date: "Thursday, June 18th",
       title: "Testing + Bug Fixing",
       tasks: [
         "Fix crashes",
@@ -161,6 +219,7 @@ export default function QueryHiveChecklist() {
     },
     {
       day: "Day 14",
+      date: "Friday, June 19th",
       title: "Demo + Presentation",
       tasks: [
         "Prepare demo flow",
@@ -171,6 +230,7 @@ export default function QueryHiveChecklist() {
     },
     {
       day: "Day 15",
+      date: "Saturday, June 20th",
       title: "Launch Day 🚀",
       tasks: [
         "Post on LinkedIn",
@@ -263,6 +323,9 @@ export default function QueryHiveChecklist() {
                   {item.day}
                 </span>
               </div>
+              <span className="text-xs opacity-70">
+      {item.date}
+    </span>
 
               <h2 className="text-2xl font-semibold mb-5">
                 {item.title}
