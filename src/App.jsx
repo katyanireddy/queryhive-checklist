@@ -18,8 +18,19 @@ export default function QueryHiveChecklist() {
       ],
     },
     {
+      day: "BREAK",
+      date: "Tuesday, June 2nd",
+      title: "Prototype (tmrw) — Idea Lab",
+      tasks: [
+        "Fix SignBridge",
+        "HeardThat draft 2",
+        "Locly"
+      ],
+      break: true,
+    },
+    {
       day: "Day 2",
-      date: "Friday, May 29th",
+      date: "Wednesday, June 3rd",
       title: "Authentication + UI Base",
       tasks: [
         "Login page",
@@ -31,8 +42,15 @@ export default function QueryHiveChecklist() {
       ],
     },
     {
+      day: "BREAK",
+      date: "Thursday, June 4th",
+      title: "Lab Exam (tmrw) — Physics",
+      tasks: ["Focus on lab exam prep and submissions"],
+      break: true,
+    },
+    {
       day: "Day 3",
-      date: "Saturday, May 30th",
+      date: "Friday, June 5th",
       title: "File Upload System",
       tasks: [
         "Upload PDFs/docs",
@@ -44,7 +62,7 @@ export default function QueryHiveChecklist() {
     },
     {
       day: "Day 4",
-      date: "Sunday, May 31st",
+      date: "Saturday, June 6th",
       title: "AI Knowledge Pipeline",
       tasks: [
         "Parse uploaded documents",
@@ -56,7 +74,7 @@ export default function QueryHiveChecklist() {
     },
     {
       day: "Day 5",
-      date: "Monday, June 1st",
+      date: "Sunday, June 7th",
       title: "AI Chatbot",
       tasks: [
         "Chat UI",
@@ -67,28 +85,15 @@ export default function QueryHiveChecklist() {
     },
     {
       day: "BREAK",
-      date: "Tuesday, June 2nd",
-      title: "Prototype (tmrw) — Idea Lab",
-      tasks: ["Focus on lab exam prep and submissions"],
-      break: true,
-    },
-    {
-      day: "BREAK",
-      date: "Wednesday, June 3rd",
+      date: "Monday, June 8th",
       title: "Lab Exam (tmrw) — C",
       tasks: ["Focus on lab exam prep and submissions"],
       break: true,
     },
-    {
-      day: "BREAK",
-      date: "Thursday, June 4th",
-      title: "Lab Exam (tmrw) — Physics",
-      tasks: ["Focus on lab exam prep and submissions"],
-      break: true,
-    },
+ 
     {
       day: "Day 6",
-      date: "Friday, June 5th",
+      date: "Tuesday, June 9th",
       title: "Conversation System",
       tasks: [
         "Save chat history",
