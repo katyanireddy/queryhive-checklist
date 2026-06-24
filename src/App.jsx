@@ -62,7 +62,7 @@ export default function QueryHiveChecklist() {
     },
     {
       day: "Day 4",
-      date: "Saturday, June 6th",
+      date: "Tuesday, June 23rd",
       title: "AI Knowledge Pipeline",
       tasks: [
         "Parse uploaded documents",
@@ -74,7 +74,7 @@ export default function QueryHiveChecklist() {
     },
     {
       day: "Day 5",
-      date: "Sunday, June 7th",
+      date: "Wednesday, June 24th",
       title: "AI Chatbot",
       tasks: [
         "Chat UI",
@@ -84,16 +84,8 @@ export default function QueryHiveChecklist() {
       ],
     },
     {
-      day: "BREAK",
-      date: "Monday, June 8th",
-      title: "Lab Exam (tmrw) — C",
-      tasks: ["Focus on lab exam prep and submissions"],
-      break: true,
-    },
- 
-    {
       day: "Day 6",
-      date: "Tuesday, June 9th",
+      date: "Thursday, June 25th",
       title: "Conversation System",
       tasks: [
         "Save chat history",
@@ -104,7 +96,7 @@ export default function QueryHiveChecklist() {
     },
     {
       day: "Day 7",
-      date: "Saturday, June 6th",
+      date: "Friday, June 26th",
       title: "UI Polish Day",
       tasks: [
         "Improve colors/fonts",
@@ -116,7 +108,7 @@ export default function QueryHiveChecklist() {
     },
     {
       day: "Day 8",
-      date: "Sunday, June 7th",
+      date: "Saturday, June 27th",
       title: "Multi-Business Support",
       tasks: [
         "Separate business workspaces",
@@ -125,51 +117,11 @@ export default function QueryHiveChecklist() {
         "Secure APIs",
       ],
     },
-    {
-      day: "BREAK",
-      date: "Monday, June 8th",
-      title: "Internal Preparation",
-      tasks: ["Focus on exam prep"],
-      break: true,
-    },
-    {
-      day: "BREAK",
-      date: "Tuesday, June 9th",
-      title: "Internal Preparation",
-      tasks: ["Focus on exam prep"],
-      break: true,
-    },
-    {
-      day: "BREAK",
-      date: "Wednesday, June 10th",
-      title: "Internal Preparation",
-      tasks: ["Focus on exam prep"],
-      break: true,
-    },
-    {
-      day: "EXAM",
-      date: "Thursday, June 11th",
-      title: "Internal Exam Day 1",
-      tasks: ["Do well in the exam!"],
-      break: true,
-    },
-        {
-      day: "EXAM",
-      date: "Friday, June 12th",
-      title: "Internal Exam Day 2",
-      tasks: ["Do well in the exam!"],
-      break: true,
-    },
-        {
-      day: "EXAM",
-      date: "Saturday, June 13th",
-      title: "Internal Exam Day 3",
-      tasks: ["Do well in the exam!"],
-      break: true,
-    },
+    
+  
     {
       day: "Day 9",
-      date: "Sunday, June 14th",
+      date: "Sunday, June 28th",
       title: "Admin Dashboard",
       tasks: [
         "Analytics cards",
@@ -180,7 +132,7 @@ export default function QueryHiveChecklist() {
     },
     {
       day: "Day 10",
-      date: "Monday, June 15th",
+      date: "Monday, June 29th",
       title: "AI Improvements",
       tasks: [
         "Better prompts",
@@ -191,7 +143,7 @@ export default function QueryHiveChecklist() {
     },
     {
       day: "Day 11",
-      date: "Tuesday, June 16th",
+      date: "Tuesday, June 30th",
       title: "Deployment",
       tasks: [
         "Deploy frontend",
@@ -202,7 +154,7 @@ export default function QueryHiveChecklist() {
     },
     {
       day: "Day 12",
-      date: "Wednesday, June 17th",
+      date: "Wednesday, July 1st",
       title: "Landing Page + Branding",
       tasks: [
         "Product tagline",
@@ -213,7 +165,7 @@ export default function QueryHiveChecklist() {
     },
     {
       day: "Day 13",
-      date: "Thursday, June 18th",
+      date: "Thursday, July 2nd",
       title: "Testing + Bug Fixing",
       tasks: [
         "Fix crashes",
@@ -224,7 +176,7 @@ export default function QueryHiveChecklist() {
     },
     {
       day: "Day 14",
-      date: "Friday, June 19th",
+      date: "Friday, July 3rd",
       title: "Demo + Presentation",
       tasks: [
         "Prepare demo flow",
@@ -235,7 +187,7 @@ export default function QueryHiveChecklist() {
     },
     {
       day: "Day 15",
-      date: "Saturday, June 20th",
+      date: "Saturday, July 4th",
       title: "Launch Day 🚀",
       tasks: [
         "Post on LinkedIn",
