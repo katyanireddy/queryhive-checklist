@@ -85,7 +85,7 @@ export default function QueryHiveChecklist() {
     },
     {
       day: "Day 6",
-      date: "Thursday, June 25th",
+      date: "Sunday, July 2nd",
       title: "Conversation System",
       tasks: [
         "Save chat history",
@@ -96,7 +96,7 @@ export default function QueryHiveChecklist() {
     },
     {
       day: "Day 7",
-      date: "Friday, June 26th",
+      date: "Monday, July 3rd",
       title: "UI Polish Day",
       tasks: [
         "Improve colors/fonts",
@@ -108,7 +108,7 @@ export default function QueryHiveChecklist() {
     },
     {
       day: "Day 8",
-      date: "Saturday, June 27th",
+      date: "Tuesday, July 4th",
       title: "Multi-Business Support",
       tasks: [
         "Separate business workspaces",
@@ -121,7 +121,7 @@ export default function QueryHiveChecklist() {
   
     {
       day: "Day 9",
-      date: "Sunday, June 28th",
+      date: "Wednesday, July 5th",
       title: "Admin Dashboard",
       tasks: [
         "Analytics cards",
@@ -132,7 +132,7 @@ export default function QueryHiveChecklist() {
     },
     {
       day: "Day 10",
-      date: "Monday, June 29th",
+      date: "Thursday, July 6th",
       title: "AI Improvements",
       tasks: [
         "Better prompts",
@@ -143,7 +143,7 @@ export default function QueryHiveChecklist() {
     },
     {
       day: "Day 11",
-      date: "Tuesday, June 30th",
+      date: "Friday, July 7th",
       title: "Deployment",
       tasks: [
         "Deploy frontend",
@@ -154,7 +154,7 @@ export default function QueryHiveChecklist() {
     },
     {
       day: "Day 12",
-      date: "Wednesday, July 1st",
+      date: "Saturday, July 8th",
       title: "Landing Page + Branding",
       tasks: [
         "Product tagline",
@@ -165,7 +165,7 @@ export default function QueryHiveChecklist() {
     },
     {
       day: "Day 13",
-      date: "Thursday, July 2nd",
+      date: "Sunday, July 9th",
       title: "Testing + Bug Fixing",
       tasks: [
         "Fix crashes",
@@ -176,7 +176,7 @@ export default function QueryHiveChecklist() {
     },
     {
       day: "Day 14",
-      date: "Friday, July 3rd",
+      date: "Monday, July 10th",
       title: "Demo + Presentation",
       tasks: [
         "Prepare demo flow",
@@ -187,7 +187,7 @@ export default function QueryHiveChecklist() {
     },
     {
       day: "Day 15",
-      date: "Saturday, July 4th",
+      date: "Tuesday, July 11th",
       title: "Launch Day 🚀",
       tasks: [
         "Post on LinkedIn",
